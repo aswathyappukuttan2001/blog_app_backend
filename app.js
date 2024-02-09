@@ -1,7 +1,7 @@
 const express=require("express")
 const cors=require("cors")
 const mongoose=require("mongoose")
-const userRouter=require("./controller/userRouter")
+const userRouter=require("./model/userModel")
 
 const app=express()
 
